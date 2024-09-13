@@ -44,10 +44,8 @@ header {
   right: 0;
   width: 100%;
   z-index: 1000;
-  /* Ensures the header stays on top of other content */
   background-color: #fff;
-  /* Adjust background color if needed */
-  // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar2 .navbar-nav {
@@ -62,9 +60,11 @@ header {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #000;
+  color:#1A3E6F;
   position: relative;
   transition: all 0.3s ease;
+  padding-bottom: 0;
+  padding-top: 10px;
 }
 
 /* Border under the active link */
@@ -74,11 +74,10 @@ header {
   bottom: -5px;
   left: 0;
   width: 100%;
-  height: 4px;
+  height: 3px;
   background-color: $mainColor !important;
   transition: width 0.3s ease;
 }
-
 
 /* media queries للشاشات المتوسطة */
 @media (max-width: 992px) {
@@ -164,7 +163,6 @@ header {
   margin-top: 80px !important;
 }
 
-/* تحسين شكل النقاط الدائرية في الأسفل */
 .banner_homepage .swiper-pagination-bullet {
   background-color: #fff;
   // width: 12px;
@@ -200,7 +198,6 @@ header {
   bottom: 20px;
 }
 
-
 ////////////////////////////////////////////////////////////////
 /* Sidebar Styles */
 .sidebar {
@@ -211,11 +208,9 @@ header {
   transform: translateX(-50%);
   width: 70%;
   max-height: 78% !important;
-  /* Allow the sidebar to grow based on content */
   background-color: white;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
   transition: top 0.9s ease;
-  /* Animation when showing */
   padding: 20px;
   z-index: 1000;
 }
@@ -259,6 +254,17 @@ header {
   height: 230%;
   width: 1px;
   background-color: #d2d2d6;
+}
+@media (max-width: 1025px) {
+  .sidebar-content-Links::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -25px;
+    height: 170%;
+    width: 1px;
+    background-color: #d2d2d6 !important;
+  }
 }
 
 .sidebar-content-Links ul {
@@ -375,7 +381,7 @@ header {
   }
 }
 
-/////////////
+///////////////////////////
 
 .nav-pills .nav-link {
   background-color: transparent;
@@ -426,6 +432,17 @@ header {
   background-color: #d2d2d6;
 }
 
+@media (max-width: 1025px) {
+  .nav-pills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -10px;
+    height: 160%;
+    width: 1px;
+   
+}}
+
 .tab-pane ul li a {
   color: #79797C;
   font-family: "Helvetica Neue";
@@ -467,19 +484,15 @@ header {
 @media (max-width: 576px) {
   .nav-pills .nav-link {
     font-size: 10px;
-    /* Further reduce font size for smaller screens */
     padding: 10px;
-    /* Further reduce padding */
   }
 
   .nav-pills .nav-link img {
     width: 14px;
-    /* Further reduce image size */
   }
 
   .tab-pane ul li a {
     font-size: 12px;
-    /* Adjust font size for tab content */
   }
 }
 
@@ -507,18 +520,15 @@ header {
 .border-under {
   position: relative;
   display: inline-block;
-  /* Ensures the span wraps the text correctly */
 }
 
 .border-under::after {
   content: "";
   position: absolute;
   bottom: -8px;
-  /* Adjust the position of the border */
   left: 0;
   right: 0;
   border-bottom: 3px solid #79797C;
-  /* Adjust the border color and width */
 }
 
 .Who-We-Are .caption p {
@@ -789,9 +799,7 @@ header {
 
 .col-Item {
   flex: 1 1 20%;
-  /* نسبة العرض للعرض المناسب */
   margin-bottom: 15px;
-  /* هامش بين العناصر */
 }
 
 .item-Services img {
