@@ -1,0 +1,17 @@
+// utilities imports
+@import "utilities/variables", "utilities/mixins",
+  "utilities/classes";
+
+// base imports
+@import "base/reset", "base/typography", "base/global";
+
+// layout imports
+@import "layout/grid", "layout/header", "layout/footer", "layout/sidebar",
+  "layout/forms";
+
+// components imports
+@import "components/buttons", "components/slider", "components/cards", "components/servicesCard", "components/dnaSection", "components/serviceItem";
+
+
+// pages imports
+@import "pages/home";

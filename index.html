@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs -->
+  <meta charset="UTF-8" />
+  <!-- description -->
+  <meta name="description" content="description" />
+  <!-- author -->
+  <meta name="author" content="Icon Creations" />
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- IE Browser Support -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- upper bar color for mobile -->
+  <meta content="#627E90" name="theme-color" />
+  <!-- Page Title -->
+  <title>Orascom &nbsp; | &nbsp; Home</title>
+  <!-- Favicon-->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="img/global/logo.ico" /> -->
+  <!-- Bootstrap v4 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- font awesome 6 -->
+  <!-- Owl Carousel -->
+  <!-- animate -->
+  <link rel="stylesheet" href="css/animate.css" />
+  <!-- Swiper -->
+  <link rel="stylesheet" href="css/swiper.min.css" />
+  <!-- Main Style -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* استايل slider */
+    .banner_homepage .swiper-container {
+        width: 100%;
+        height: 100%;
+
+    }
+    .banner_homepage .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner_homepage .swiper-slide img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    /* التوافق مع الشاشات */
+    @media (max-width: 1400px) {
+      .banner_homepage .swiper-slide img {
+            /* height: 250px; */
+            height: 100%;
+            width: 100%;
+            background-color: aqua;
+            width: auto;
+            overflow-x: hidden;
+
+        }
+       
+        
+    }
+
+
+
+        .Brands .swiper-container {
+            width: 100%;
+            /* overflow: hidden; */
+        }
+        .Brands .swiper-wrapper {
+            transition-timing-function: linear !important;
+        }
+        .Brands .swiper-slide {
+            width: auto !important;
+            margin-right: 30px;
+        }
+        .Brands .swiper-slide img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+          .Brands .swiper-slide img {
+                /* height: 250px; */
+                width: auto;
+                
+            }
+        }
+
+</style>
+</head>
+
+<body>
+  <!-- ==================== Header ==================== -->
+  <header class="position-fixed top-0 start-0 end-0">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+  
+        <a class="navbar-brand" href="#">
+          <img src="./img/homePage/header/ORASCOM Services Logo.png" alt="logo" />
+        </a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item AR">
+              <a class="nav-link" href="#">AR</a>
+            </li>
+            <li class="Contact-Us">
+              <button class="btn btn-light ">Contact Us</button>
+            </li>
+          </ul>
+  
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar2 navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link Links" href="#" onclick="showSidebar('about')">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Links" href="#" onclick="showSidebar('services')">Our services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Links" href="#" onclick="showSidebar('careers')">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link Links" href="#" onclick="showSidebar('news')">News</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar rounded">
+      <span class="closebtn" onclick="hideSidebar()">&times;</span>
+  
+  
+  
+      <div id="about" class="sidebar-content  sidebar-content-js">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-3 ">
+              <div class="sidebar-content-Links">
+                <ul>
+                  <li class="nav-item">
+                    <a class="nav-link Links" href="#">Who We Are</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link Links" href="#">Our History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link Links" href="#">Mission and Vision</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link Links" href="#">Management Team</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-9 ">
+              <div class="sidebar-content-capton ">
+                <div>
+                  <img class="" src="./img/homePage/slider/6.png" alt="logo-slider" />
+                </div>
+                <div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Tempus iaculis urna id
+                    volutpat lacus laoreet non curabitur. Lobortis scelerisque fermentum dui faucibus in ornare quam.
+                    Tincidunt dui ut ornare lectus sit amet est. Pretium lectus quam id leo in. Condimentum mattis
+                    pellentesque id nibh tortor. Pretium nibh ipsum consequat nisl vel pretium lectus quam. Pharetra diam
+                    sit amet nisl. Ac placerat vestibulum lectus mauris ultrices. Dictum sit amet justo donec enim.</p>
+                </div>
+                <div class="sidebar-content-capton-imgPosition">
+                  <img class="" src="./img/homePage/slider/7.png" alt="logo-slider" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="services" class="sidebar-content  sidebar-content-js">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-3">
+              <div class="d-flex align-items-start">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                    aria-selected="true">
+                    Sales
+                    <img src="./img/homePage/slider/arrow-right-01-round.png" alt="arrowleft" />
+                  </button>
+                  <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">
+                    After Sales
+                    <img src="./img/homePage/slider/arrow-right-01-round.png" alt="arrowleft" />
+                  </button>
+                  <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                    aria-selected="false">
+                    Rentals
+                    <img src="./img/homePage/slider/arrow-right-01-round.png" alt="arrowleft" />
+                  </button>
+                  <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                    aria-selected="false">
+                    Telecom
+                  </button>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-12 col-lg-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                  aria-labelledby="v-pills-home-tab">
+                  <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Heavy Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Generating Sets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Pumps & Compressors</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Marine</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Railway Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Workshop Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Security Systems</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Smart Irrigation Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Marine</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">MAINTENANCE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">SPARE PARTS</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                  <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Heavy Equipment</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Generating Sets</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link Links" href="#">Pumps & Compressors</a>
+                    </li>
+  
+                  </ul>
+                </div>
+                <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+              </div> -->
+                <div class="sidebar-content-capton-imgPosition">
+                  <img class="" src="./img/homePage/slider/7.png" alt="logo-slider" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- <div id="careers" class="sidebar-content  sidebar-content-js">
+        <h2>Careers</h2>
+        <p>Here you can list job openings, career opportunities, and company benefits.</p>
+      </div>
+      
+      <div id="news" class="sidebar-content  sidebar-content-js">
+        <h2>News</h2>
+        <p>Here you can share the latest updates, company news, and upcoming events.</p>
+      </div> -->
+  
+      </div>
+  
+  </header>
+  <!-- ==================== Header ==================== -->
+
+  <!-- ==================== Slider ==================== -->
+    <section class="banner_homepage">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/homePage/slider/1.png" alt="Image 1"></div>
+          <div class="swiper-slide"><img src="./img/homePage/slider/2.png" alt="Image 2"></div>
+          <div class="swiper-slide"><img src="./img/homePage/slider/3.png" alt="Image 3"></div>
+          <div class="swiper-slide"><img src="./img/homePage/slider/4.png" alt="Image 4"></div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+  </div>
+  </section>   
+  <!-- ==================== Slider ==================== -->
+  <!-- ==================== Who We Are ==================== -->
+  <section class="Who-We-Are" id="Who-We-Are">
+    <div class="Who-We-Are-item  d-flex">
+           <div class="caption w-50">
+            <h2><span class="border-under">Who</span> We Are</h2>
+            <p>Orascom Services is the holding company of Orascom Trading S.A.E., Orascom Free Zone, and National Equipment Company. Orascom Services is a prominent player in fields of commercial agencies, equipment importation and distribution, genset packaging, telecom services, and equipment rental. We provide unparalleled sales and after sales services with a commitment to excellence in every aspect of our operations.
+              Established over four decades ago by the late Eng. Onsi Sawiris, Orascom Services represents a diverse range of renowned Original Equipment Manufacturers (OEMs) in Egypt. Our extensive portfolio serve multiple industries, including construction, infrastructure, industrial manufacturing, telecom services and agriculture
+            </p>
+            <button class="btn btnMain rounded-3">Read More</button>
+           </div>
+        
+          <div class="Image w-50">
+            <img src="./img/homePage/Who We Are/Rectangle 34624275.png" class="w-100" alt="img" />
+          </div>
+    </div>
+  </section>
+  <!-- ==================== Who We Are ==================== -->
+
+  <!-- ==================== Ourservices ==================== -->
+  <section class="Ourservices" id="Ourservices">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="caption">
+          <h2><span class="border-under">Our</span> services</h2>
+         </div>
+         <div class="col-md-6  col-lg-3 col-sm-12 mb-3">
+          <div class="">
+            <div class="item">
+              <img src="./img/homePage/Our services/1.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn">
+              <h3>Sales</h3>
+            </div>
+           </div>
+         </div>
+         <div class="col-md-6  col-lg-3 col-sm-12 mb-3">
+          <div class="">
+            <div class="item">
+              <img src="./img/homePage/Our services/2.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn">
+              <h3>After Sales</h3>
+            </div>
+           </div>
+         </div>
+         <div class="col-md-6  col-lg-3 col-sm-12 mb-3">
+          <div class="">
+            <div class="item">
+              <img src="./img/homePage/Our services/3.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn">
+              <h3>Rentals</h3>
+            </div>
+           </div>
+         </div>
+         <div class="col-md-6  col-lg-3 col-sm-12 mb-3">
+          <div class="">
+            <div class="item">
+              <img src="./img/homePage/Our services/4.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn">
+              <h3>Telecom</h3>
+            </div>
+           </div>
+         </div>
+      </div>
+
+      <div class="row row-Item">
+        <div class="caption">
+          <h2>Sales Services</h2>
+         </div>
+         <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/1.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Compressors</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/2.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Heavy Equipment</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/3.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Generating Sets</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/4.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Pumps </h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/5.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Marine</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/6.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Railway  Equipment</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/7.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Workshop  Equipment</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/8.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Security  Systems</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/9.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Smart Irrigation  Solutions</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6  col-Item">
+          <div class="content">
+            <div class="item-Services">
+              <img src="./img/homePage/Sales Services/10.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn2">
+              <h3>Civil Aviation</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================== Ourservices ==================== -->
+  
+
+  <!-- ==================== Latest NEWS ==================== -->
+  <section class="LatestNEWS" id="LatestNEWS">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="caption">
+          <h2><span class="border-under">Latest </span> NEWS</h2>
+         </div>
+         <div class="col-md-6 col-lg-4 col-sm-12 mb-3">
+          <div class="">
+            <div class="item">
+              <img src="./img/homePage/Latest NEWS/1.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn">
+              <h3>Mining Forum 2024</h3>
+              <p>We proudly participated as an exhibitor at the Egypt Mining Forum 2024 on July 16–17, alongside our partners Grove, Sandvik, Hitachi, Pramac, Volvo Penta, Atlas Copco, Pentair, and Dafo Vehicle.</p>
+              <button class="btn btnMain rounded-3">Read More</button>
+
+            </div>
+           </div>
+         </div>
+         <div class="col-md-6 col-lg-4 col-sm-12 mb-3">
+          <div class="">
+            <div class="item">
+              <img src="./img/homePage/Latest NEWS/3.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn">
+              <h3>Volvo Penta Oil lubricant</h3>
+              <p>We proudly participated as an exhibitor at the Egypt Mining Forum 2024 on July 16–17, alongside our partners Grove, Sandvik, Hitachi, Pramac, Volvo Penta, Atlas Copco, Pentair, and Dafo Vehicle.</p>
+              <button class="btn btnMain rounded-3">Read More</button>
+
+            </div>
+           </div>
+         </div>
+         <div class="col-md-6 col-lg-4 col-sm-12 mb-3">
+          <div class="">
+            <div class="item">
+              <img src="./img/homePage/Latest NEWS/2.png" class="w-100" alt="imgitem" />
+            </div>
+            <div class="item-captipn">
+              <h3>Expanding in Libya</h3>
+              <p>We proudly participated as an exhibitor at the Egypt Mining Forum 2024 on July 16–17, alongside our partners Grove, Sandvik, Hitachi, Pramac, Volvo Penta, Atlas Copco, Pentair, and Dafo Vehicle.</p>
+              <button class="btn btnMain rounded-3">Read More</button>
+
+            </div>
+           </div>
+         </div>
+       
+      </div>
+      </div>
+      </section>
+  <!-- ==================== Latest NEWS ==================== -->
+
+    <!-- ==================== Brands ==================== -->
+     <section class="Brands mt-5">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/homePage/Brand/1.png" alt="Brand 1" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/2.png" alt="Brand 2" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/3.png" alt="Brand 3" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/4.png" alt="Brand 4" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/5.png" alt="Brand 5" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/6.png" alt="Brand 6" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/7.png" alt="Brand 7" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/8.png" alt="Brand 8" /></div>
+
+            <div class="swiper-slide"><img src="./img/homePage/Brand/9.png" alt="Brand 9" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/10.png" alt="Brand 10" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/11.png" alt="Brand 11" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/12.png" alt="Brand 12" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/13.png" alt="Brand 13" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/14.png" alt="Brand 14" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/15.png" alt="Brand 15" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/16.png" alt="Brand 16" /></div>
+            <div class="swiper-slide"><img src="./img/homePage/Brand/17.png" alt="Brand 17" /></div>
+
+        </div>
+    </div>
+
+    <div class="custom-border"></div>
+
+
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/homePage/Brand/18.png" alt="Brand 1" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/19.png" alt="Brand 2" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/20.png" alt="Brand 3" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/21.png" alt="Brand 4" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/22.png" alt="Brand 5" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/23.png" alt="Brand 6" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/24.png" alt="Brand 7" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/26.png" alt="Brand 8" /></div>
+
+          <div class="swiper-slide"><img src="./img/homePage/Brand/27.png" alt="Brand 9" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/28.png" alt="Brand 10" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/29.png" alt="Brand 11" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/30.png" alt="Brand 12" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/31.png" alt="Brand 13" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/32.png" alt="Brand 14" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/33.png" alt="Brand 15" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/26.png" alt="Brand 16" /></div>
+          <div class="swiper-slide"><img src="./img/homePage/Brand/26.png" alt="Brand 17" /></div>
+
+      </div>
+  </div>
+    </section> 
+  <!-- ==================== Brands ==================== -->
+ 
+  <!-- ==================== Footer ==================== -->
+  <footer>
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-12 mb-lg-0">
+            <div class="footer_content">
+              <img src="./img/homePage/header/ORASCOM Services Logo.png" class="footer_content_logo" />
+              <ul class="footer_content_socialList list-unstyled">
+                <li class="footer_content_socialList">
+                  <a href="#" class="footer_content_socialList_item_link">
+                    <img src="./img/homePage/footer/Icon.png" class="" />
+
+                  </a>
+                </li>
+                <li class="footer_content_socialList">
+                  <a href="#" class="footer_content_socialList_item_link">
+                    <img src="./img/homePage/footer/Icon2.png" class="" />
+
+                  </a>
+                </li>
+                <li class="footer_content_socialList"></li>
+                  <a href="#" class="footer_content_socialList_item_link">
+                    <img src="./img/homePage/footer/Icon3.png" class="" />
+
+                  </a>
+                </li>
+                <li class="footer_content_socialList">
+                  <a href="#" class="footer_content_socialList_item_link">
+                    <img src="./img/homePage/footer/Icon4.png" class="" />
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-lg-0 mb-4 ps-lg-5">
+            <div class="footer_content">
+              <ul class="footer_content_list list-unstyled">
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link noactive"> About Us </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="ourFleet.html" class="footer_content_list_item_link"> Who We Are </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link"> Our History </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link"> Mission and Vision</a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link"> Management  Team</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-lg-0 mb-4 ps-lg-5">
+            <div class="footer_content">
+              <ul class="footer_content_list list-unstyled">
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link noactive"> Our Services</a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link"> Sales </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link"> After Sales</a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link"> Rentals </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link"> Telecom </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-12 mb-lg-0 ps-lg-5">
+            <div class="footer_content">
+              <ul class="footer_content_list list-unstyled">
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link noactive"> Careers </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link noactive">Contact Us </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link noactive">News </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3  col-md-6 mb-lg-0 ps-lg-5 end-link">
+            <div class="footer_content">
+              <ul class="footer_content_list list-unstyled">
+                <li class="footer_content_list_item newsletter-relative ">
+                  <img class="" src="./img//homePage/footer/Pattern.png" alt="foterimg" />
+                </li>
+                </ul>
+                <ul class="footer_content_list list-unstyled w-75">
+                <li class="footer_content_list_item">
+                  <a href="#" class="footer_content_list_item_link newsletter noactive"> newsletter </a>
+                </li>
+                <li class="footer_content_list_item">
+                  <p class="footer-P-end">Stay up to date with our latest news and products.</p>
+                </li>
+                <div>
+                  <input class="form-control bg-transparent" type="email" placeholder="Email address"  />
+                </div>
+                <div class="Subscribe">
+                  <button class="btn btn-light w-100">Subscribe</button>
+                </div>
+              </ul>
+            </div>
+          </div>
+          
+
+          
+        
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-8 text-start d-flex align-items-center">
+            <p class="copyright_desc">Privacy policy</p>
+            <p class="copyright_desc ms-3">Terms & Conditions</p>
+          </div>
+          <div class="col-4 text-end">
+            <div class="copyright_desc">
+              <span class="me-2">Designed & Developed by</span>
+              <a href="https://icon-creations.com/" target="_blank">
+                <img src="./img/homePage/footer/image 5.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ===================== Start JS Files ===================== -->
+  <!-- jQuery v3 -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- Popper JS -->
+  <script src="js/popper.min.js"></script>
+  <!-- Bootstrap v4 -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Swiper -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Wow -->
+  <script src="js/wow.min.js"></script>
+  <!-- Main Script -->
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+  
+    <script>
+      var swiper = new Swiper('.banner_homepage .swiper-container', {
+    slidesPerView: 1,  // عرض صورة واحدة في كل مرة
+    spaceBetween: 10,  // المسافة بين الصور
+    loop: true,  // الشريط يعمل بشكل مستمر
+    effect: 'fade',  // إضافة تأثير fade
+    fadeEffect: {
+        crossFade: true
+    },
+    autoplay: {
+        delay: 3000,  // الانتقال التلقائي بين الصور كل 3 ثواني
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        type: 'bullets',  // استخدام النقاط المدورة
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});
+
+    </script>
+
+  <!-- Initialize Swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: false
+            },
+            speed: 5000,
+            allowTouchMove: false,
+            freeMode: true,
+            freeModeMomentum: false,
+            loopedSlides: 8,
+            touchRatio: 0,
+            simulateTouch: false
+        });
+
+        // Prevent any click events from affecting the slider
+        document.querySelector('.mySwiper').addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }, true);
+    </script>
+    
+    
+ </body>
+
+</html>

@@ -1,0 +1,120 @@
+// /* ====================================== _____________ Header Styles _____________ ====================================== */
+// .header {
+//    padding: 2.1rem 0;
+//    background: rgb(0, 0, 0);
+//    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.01) 100%);
+//    position: fixed;
+//    top: 0;
+//    left: 0;
+//    width: 100%;
+//    z-index: 9;
+//    transition: $slTransition;
+//    &.scrolled {
+//    background: rgb(0, 0, 0, 0.8);
+//    padding: 1.5rem 0;
+
+//    }
+//    &_lang {
+//       .dropdown-toggle {
+//          font-size: 0.8rem;
+//          color: white;
+//          text-transform: uppercase;
+
+//          &::after {
+//             display: none;
+//          }
+//       }
+
+//    }
+
+//    &_link {
+//       margin-bottom: 0;
+//       &_logo {
+//          width: 126px;
+
+//          @media (max-width: 768px) {
+//             width: 100%;
+//          }
+//       }
+//    }
+
+//    &_icons {
+//       display: flex;
+//       gap: 1rem;
+//       color: white;
+//       justify-content: end;
+//       align-items: center;
+
+//       &_search {
+//          cursor: pointer;
+//          width: 20px;
+//          @media (max-width: 768px) {
+//             width: 16px;
+
+//          }
+//       }
+
+
+//       &_burgerMenu {
+//          cursor: pointer;
+//          position: relative;
+//          width: 32px;
+//          height: 22px;
+//          @media (max-width: 768px) {
+//             width: 26px;
+//             height: 16px;
+
+//          }
+//          &_global {
+//             position: absolute;
+//             left: 0;
+//             border-top: 3px solid white;
+//             width: 100%;
+//             transition: $transition;
+//             border-radius: 50px;
+
+//             &:first-child {
+//                top: 0;
+//                left: 0;
+
+//                body.en & {
+//                   left: auto;
+//                   right: 0;
+//                }
+//             }
+
+//             &:nth-child(2) {
+//                top: 9px;
+//             }
+
+//             &:last-child {
+//                top: 18px;
+//                right: 0;
+//                left: auto;
+
+//                body.en & {
+//                   right: auto;
+//                   left: 0;
+//                }
+//             }
+
+//             &:first-child,
+//             &:last-child {
+//                width: 50%;
+//             }
+//          }
+
+//          &.clicked {
+//             .header_icons_burgerMenu_global {
+
+//                &:first-child,
+//                &:last-child {
+//                   width: 100%;
+//                }
+//             }
+//          }
+//       }
+//    }
+// }
+
+// /* ====================================== _____________ Header Styles _____________ ====================================== */

@@ -1,0 +1,16 @@
+/* ====================================== _____________ Buttons Styles _____________ ====================================== */
+.redButton {
+   padding: 10px 30px;
+   background-color: $mainColor;
+   font-weight: 500;
+   color: white;
+   transition: $transition;
+   margin-bottom: 0;
+   border-radius: 4px;
+   &:hover {
+      color: $mainColor;
+      background-color: white;
+   }
+}
+
+/* ====================================== _____________ Buttons Styles _____________ ====================================== */

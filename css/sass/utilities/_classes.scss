@@ -1,0 +1,116 @@
+/* ====================================== _____________ Classes Styles _____________ ====================================== */
+// == Container //
+.leftContainer {
+  margin-left: auto;
+  padding: 0 15px;
+  padding-right: 0;
+  @include for_phone {
+    width: 100%;
+    padding-right: 15px;
+    margin-left: auto;
+  }
+  @include for_miniTb {
+    width: calc(540px + ((100vw - 540px) / 2));
+    padding-right: 15px;
+    margin-left: auto;
+  }
+  @include for_tablet {
+    width: calc(720px + ((100vw - 720px) / 2));
+  }
+  @include for_miniLt {
+    width: calc(960px + ((100vw - 960px) / 2));
+  }
+  @include for_labtop {
+    width: calc(1140px + ((100vw - 1140px) / 2));
+  }
+}
+
+.rightContainer {
+  margin-right: auto;
+  padding: 0 15px;
+  padding-left: 0;
+  @include for_phone {
+    width: 100%;
+    padding-left: 15px;
+    margin-left: auto;
+  }
+  @include for_miniTb {
+    width: calc(540px + ((100vw - 540px) / 2));
+    padding-left: 15px;
+    margin-right: auto;
+  }
+  @include for_tablet {
+    width: calc(720px + ((100vw - 720px) / 2));
+  }
+  @include for_miniLt {
+    width: calc(960px + ((100vw - 960px) / 2));
+  }
+  @include for_labtop {
+    width: calc(1140px + ((100vw - 1140px) / 2));
+  }
+}
+// == Container //
+
+// == Color //
+.mainColor {
+  color: $mainColor !important;
+}
+.secColor {
+  color: $secColor !important;
+}
+.whtColor {
+  color: $whtColor !important;
+}
+.blkColor {
+  color: $blkColor !important;
+}
+// == Color //
+
+// == Bg Color //
+.mainBgColor {
+  background-color: $mainColor !important;
+}
+.secBgColor {
+  background-color: $secColor !important;
+}
+.whtBgColor {
+  background-color: $whtColor !important;
+}
+.blkBgColor {
+  background-color: $blkColor !important;
+}
+// == Bg Color //
+
+
+
+// == Texts //
+p,
+.p {
+  font-size: $paragraphFont;
+  font-weight: $fontRegular;
+  color: $blkColor;
+  margin-bottom: 1rem;
+}
+// == Texts //
+
+// == Links //
+a,
+.a,
+.link {
+  font-size: $paragraphFont;
+  font-weight: $fontRegular;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+
+// == Img //
+
+.mainHover {
+  transition: $transition;
+  &:hover {
+  color: $mainColor;
+
+  }
+}
+/* ====================================== _____________ Classes Styles _____________ ====================================== */

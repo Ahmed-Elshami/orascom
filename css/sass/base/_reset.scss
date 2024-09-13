@@ -1,0 +1,111 @@
+// /* ====================================== _____________ Reset Styles _____________ ====================================== */
+// * {
+//     outline: 0 !important;
+//     box-shadow: none !important;
+// }
+
+// a,
+// a:hover {
+//     text-decoration: none;
+//     color: inherit;
+// }
+
+// button {
+//     border: none;
+//     background-color: transparent;
+// }
+
+// html {
+//     font-size: 100%;
+
+//     @include for_phone() {
+//         font-size: 85%;
+//     }
+
+//     @include for_miniTb() {
+//         font-size: 88%;
+//     }
+
+//     @include for_tablet() {
+//         font-size: 90%;
+//     }
+
+//     @include for_miniLt() {
+//         font-size: 95%;
+//     }
+
+//     @include for_labtop() {
+//         font-size: 100%;
+//     }
+
+//     overflow-x: hidden;
+// }
+
+// body {
+//     font-size: $mainFont;
+//     font-weight: 400;
+//     font-family: $englishFont;
+//     overflow-x: hidden;
+//     background-color: black;
+
+//     &.ar {
+//         font-family: $arabicFont;
+//         direction: rtl;
+//         text-align: right;
+//     }
+// }
+
+// textarea {
+//     resize: none;
+// }
+
+// .modal {
+//     background: #000000e3;
+// }
+
+// .modal-dialog {
+//     margin: 0;
+//     width: 100%;
+//     height: 100%;
+//     max-width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .modal-content {
+//         background-color: transparent;
+  
+
+//         .modal-body {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+
+//             form {
+//                 width: 70%;
+//                 display: flex;
+//                 flex-direction: column;
+//                 align-items: center;
+//                 @media (max-width: 768px) {
+//                     width: 90%;
+//                 }
+//             }
+//         }
+//     }
+// }
+// .dropdown-menu {
+//     background-color: rgba(0, 0, 0, 0.6);
+// }
+// .dropdown-item {
+//     color: white;
+
+//     &:focus, &:hover {
+//         color: white;
+//         background-color: transparent;
+//     }
+// }
+// .dropdown-item.active, .dropdown-item:active {
+//     color: white;
+//     background-color: transparent;
+// }
+// /* ====================================== _____________ Reset Styles _____________ ====================================== */

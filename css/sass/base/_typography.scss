@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-BoldItalic.eot');
+    src: url('font/HeroNew-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-BoldItalic.woff2') format('woff2'),
+        url('font/HeroNew-BoldItalic.woff') format('woff'),
+        url('font/HeroNew-BoldItalic.ttf') format('truetype'),
+        url('font/HeroNew-BoldItalic.svg#HeroNew-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-ExtraBoldItalic.eot');
+    src: url('font/HeroNew-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-ExtraBoldItalic.woff2') format('woff2'),
+        url('font/HeroNew-ExtraBoldItalic.woff') format('woff'),
+        url('font/HeroNew-ExtraBoldItalic.ttf') format('truetype'),
+        url('font/HeroNew-ExtraBoldItalic.svg#HeroNew-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-Bold.eot');
+    src: url('font/HeroNew-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-Bold.woff2') format('woff2'),
+        url('font/HeroNew-Bold.woff') format('woff'),
+        url('font/HeroNew-Bold.ttf') format('truetype'),
+        url('font/HeroNew-Bold.svg#HeroNew-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-ExtraBold.eot');
+    src: url('font/HeroNew-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-ExtraBold.woff2') format('woff2'),
+        url('font/HeroNew-ExtraBold.woff') format('woff'),
+        url('font/HeroNew-ExtraBold.ttf') format('truetype'),
+        url('font/HeroNew-ExtraBold.svg#HeroNew-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New Hairline';
+    src: url('font/HeroNew-Hairline.eot');
+    src: url('font/HeroNew-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-Hairline.woff2') format('woff2'),
+        url('font/HeroNew-Hairline.woff') format('woff'),
+        url('font/HeroNew-Hairline.ttf') format('truetype'),
+        url('font/HeroNew-Hairline.svg#HeroNew-Hairline') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-RegularItalic.eot');
+    src: url('font/HeroNew-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-RegularItalic.woff2') format('woff2'),
+        url('font/HeroNew-RegularItalic.woff') format('woff'),
+        url('font/HeroNew-RegularItalic.ttf') format('truetype'),
+        url('font/HeroNew-RegularItalic.svg#HeroNew-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-Regular.eot');
+    src: url('font/HeroNew-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-Regular.woff2') format('woff2'),
+        url('font/HeroNew-Regular.woff') format('woff'),
+        url('font/HeroNew-Regular.ttf') format('truetype'),
+        url('font/HeroNew-Regular.svg#HeroNew-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-LightItalic.eot');
+    src: url('font/HeroNew-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-LightItalic.woff2') format('woff2'),
+        url('font/HeroNew-LightItalic.woff') format('woff'),
+        url('font/HeroNew-LightItalic.ttf') format('truetype'),
+        url('font/HeroNew-LightItalic.svg#HeroNew-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-Light.eot');
+    src: url('font/HeroNew-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-Light.woff2') format('woff2'),
+        url('font/HeroNew-Light.woff') format('woff'),
+        url('font/HeroNew-Light.ttf') format('truetype'),
+        url('font/HeroNew-Light.svg#HeroNew-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-MediumItalic.eot');
+    src: url('font/HeroNew-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-MediumItalic.woff2') format('woff2'),
+        url('font/HeroNew-MediumItalic.woff') format('woff'),
+        url('font/HeroNew-MediumItalic.ttf') format('truetype'),
+        url('font/HeroNew-MediumItalic.svg#HeroNew-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New Hairline';
+    src: url('font/HeroNew-HairlineItalic.eot');
+    src: url('font/HeroNew-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-HairlineItalic.woff2') format('woff2'),
+        url('font/HeroNew-HairlineItalic.woff') format('woff'),
+        url('font/HeroNew-HairlineItalic.ttf') format('truetype'),
+        url('font/HeroNew-HairlineItalic.svg#HeroNew-HairlineItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-Medium.eot');
+    src: url('font/HeroNew-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-Medium.woff2') format('woff2'),
+        url('font/HeroNew-Medium.woff') format('woff'),
+        url('font/HeroNew-Medium.ttf') format('truetype'),
+        url('font/HeroNew-Medium.svg#HeroNew-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-SemiBold.eot');
+    src: url('font/HeroNew-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-SemiBold.woff2') format('woff2'),
+        url('font/HeroNew-SemiBold.woff') format('woff'),
+        url('font/HeroNew-SemiBold.ttf') format('truetype'),
+        url('font/HeroNew-SemiBold.svg#HeroNew-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-SemiBoldItalic.eot');
+    src: url('font/HeroNew-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-SemiBoldItalic.woff2') format('woff2'),
+        url('font/HeroNew-SemiBoldItalic.woff') format('woff'),
+        url('font/HeroNew-SemiBoldItalic.ttf') format('truetype'),
+        url('font/HeroNew-SemiBoldItalic.svg#HeroNew-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-UltraLightItalic.eot');
+    src: url('font/HeroNew-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-UltraLightItalic.woff2') format('woff2'),
+        url('font/HeroNew-UltraLightItalic.woff') format('woff'),
+        url('font/HeroNew-UltraLightItalic.ttf') format('truetype'),
+        url('font/HeroNew-UltraLightItalic.svg#HeroNew-UltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New Super';
+    src: url('font/HeroNew-Super.eot');
+    src: url('font/HeroNew-Super.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-Super.woff2') format('woff2'),
+        url('font/HeroNew-Super.woff') format('woff'),
+        url('font/HeroNew-Super.ttf') format('truetype'),
+        url('font/HeroNew-Super.svg#HeroNew-Super') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-ThinItalic.eot');
+    src: url('font/HeroNew-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-ThinItalic.woff2') format('woff2'),
+        url('font/HeroNew-ThinItalic.woff') format('woff'),
+        url('font/HeroNew-ThinItalic.ttf') format('truetype'),
+        url('font/HeroNew-ThinItalic.svg#HeroNew-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New Super';
+    src: url('font/HeroNew-SuperItalic.eot');
+    src: url('font/HeroNew-SuperItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-SuperItalic.woff2') format('woff2'),
+        url('font/HeroNew-SuperItalic.woff') format('woff'),
+        url('font/HeroNew-SuperItalic.ttf') format('truetype'),
+        url('font/HeroNew-SuperItalic.svg#HeroNew-SuperItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-Thin.eot');
+    src: url('font/HeroNew-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-Thin.woff2') format('woff2'),
+        url('font/HeroNew-Thin.woff') format('woff'),
+        url('font/HeroNew-Thin.ttf') format('truetype'),
+        url('font/HeroNew-Thin.svg#HeroNew-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hero New';
+    src: url('font/HeroNew-UltraLight.eot');
+    src: url('font/HeroNew-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/HeroNew-UltraLight.woff2') format('woff2'),
+        url('font/HeroNew-UltraLight.woff') format('woff'),
+        url('font/HeroNew-UltraLight.ttf') format('truetype'),
+        url('font/HeroNew-UltraLight.svg#HeroNew-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Hero New';
+    src:  url('font/Hero-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hero New';
+    src:  url('font/Hero-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src:  url('font/BebasNeue-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src:  url('font/HelveticaNeue.otf') format('opentype');
+}
