@@ -12,7 +12,12 @@ function showSidebar(contentId) {
   contentToShow.classList.add('active');
 
   // Show the sidebar with animation
-  sidebar.style.top = "17.5%";
+  sidebar.style.top = "17%";
+
+  if (window.matchMedia("(min-width: 769px) and (max-width: 1024px)").matches) {
+    sidebar.style.top = "20%";
+}
+  
 
   // Remove active class from all links
   var links = document.querySelectorAll('.Links');
@@ -55,3 +60,27 @@ document.addEventListener('click', function(event) {
 
 
 
+
+
+// Set top based on screen size
+// if (window.matchMedia("(max-width: 768px)").matches) {
+//   // Screen size is 600px or less
+//   sidebar.style.top = "20%";
+//   sidebar.style.height="50%"
+// } else if (window.matchMedia("(max-width: 1024px)").matches) {
+//   // Screen size is between 601px and 1024px
+//   sidebar.style.top = "20%";
+//   // sidebar.style.backgroundColor= "black"
+
+// } else if (window.matchMedia("(min-width: 1024px) and (max-width: 1444px)").matches) {
+//   // Screen size is between 601px and 1024px
+//   sidebar.style.top = "17.5%";
+// }
+//   else if (window.matchMedia("(min-width: 1445px) and (max-width: 2560px)").matches) {
+//   // Screen size is between 601px and 1024px
+//   sidebar.style.top = "11.5%";
+
+// }
+// else {
+//   // Screen size is larger than 1024px
+// }
