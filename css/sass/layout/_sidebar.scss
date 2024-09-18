@@ -1,20 +1,239 @@
-/* ====================================== _____________ Sidebar Styles _____________ ====================================== */
+/* Sidebar Styles */
 .sidebar {
-   // width: 320px;
-   // background-color: rgba(0, 0, 0, 0.9);
-   // background-image: url("../img/global/pattern.png");
-   // background-size: 204px;
-   // background-repeat: no-repeat;
-   // background-position: center center;
-   // height: 100vh;
-   // padding: 8rem 0 6rem;
-   // position: fixed;
-   // right: -100%;
-   // top: 0;
-   // padding-inline-start: 2.5rem;
-   // z-index: 8;
-   // transition: $slTransition;
-  
-}
+   position: fixed;
+   height: 75%;
+   top: -100%;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 68%;
+   max-height: 78% !important;
+   background-color: white;
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+   transition: top 0.9s ease;
+   padding: 20px;
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+   z-index: 1000;
+ }
+ 
+ .sidebar-content {
+   display: none;
+   margin-top: 20px;
+ }
+ 
+ /* Active content */
+ .active {
+   display: block;
+ }
+ 
+ /* Close button hidden */
+ .sidebar .closebtn {
+   display: none;
+ }
+ 
+ .sidebar-content-Links ul li {
+   list-style: none;
+   margin-bottom: 15px;
+   margin-left: 30px;
+   font-size: 14px;
+   line-height: 17px;
+   font-weight: 500;
+   font-family: "Helvetica Neue";
+   text-transform: uppercase;
+   color: #79797C;
+ }
+ 
+ .sidebar-content-Links {
+   position: relative;
+ }
+ 
+ .sidebar-content-Links::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   right: -25px;
+   height: 205%;
+   width: 1px;
+   background-color: #d2d2d6;
+ }
+ @media (max-width: 1025px) {
+   .sidebar-content-Links::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     right: -25px;
+     height: 150%;
+     width: 1px;
+     background-color: #d2d2d6 !important;
+   }
+ }
+ 
+ .sidebar-content-Links ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .sidebar-content-Links ul li {
+   padding: 5px 0;
+ }
+ 
+ .sidebar-content-capton {
+   margin-left: 50px;
+ }
+ 
+ .sidebar-content-capton p {
+   margin-top: 40px;
+   font-family: "Helvetica Neue";
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: -0.28px;
+   color: #A3A3A3;
+ }
+ 
+ .sidebar-content-capton-imgPosition {
+   position: absolute;
+   bottom: 20px;
+   right: 5px;
+ }
+ 
+ .sidebar-content-capton-imgPosition img {
+   width: 300px;
+ }
+ 
+ .bottom-Img  .sidebar-content-capton-imgPosition{
+   width: 300px;
+ 
+ }
 
-/* ====================================== _____________ Sidebar Styles _____________ ====================================== */
+ /* Media Query للأجهزة اللوحية */
+@media (max-width: 992px) {
+   .sidebar-content-Links ul li {
+     margin-left: 10px;
+   }
+ 
+   .sidebar-content-capton {
+     margin-left: 20px;
+   }
+ 
+   .sidebar-content-capton-imgPosition {
+     bottom: 25px !important;
+     right: 0px;
+     width: 270px;
+     overflow-x: hidden;
+     text-align: end;
+   }
+   .sidebar-content-capton-imgPosition img {
+  width: 80% !important;
+     text-align: end;
+     }
+   .bottom-Img  .sidebar-content-capton-imgPosition{
+     bottom: -170px !important;
+     right: 0px;
+     width: 270px !important;
+   }
+ 
+ 
+ 
+   .sidebar-content-Hidden{
+     background-color: red;
+     display: none;
+   }
+ 
+   .sidebar-content .arrow-right{
+     display: none !important;   
+   }
+   .sidebar-content .arrow-bottom{
+     display: inline !important;   
+   }
+ 
+ }
+ 
+ /* Media Query لشاشات الموبايل */
+ @media (max-width: 768px) {
+   .sidebar-content-Links {
+     text-align: center;
+     position: relative;
+   }
+ 
+   .sidebar-content-Links ul li {
+     margin-left: 0;
+     margin-bottom: 2px;
+     font-size: 12px;
+   }
+   /* إخفاء البوردر الأصلي على الجانب */
+   .sidebar-content-Links::before {
+     display: none;
+   }
+   .sidebar-content-capton {
+     margin-left: 0;
+     text-align: center;
+   }
+   .sidebar-content-capton p {
+     margin-top: 10px;
+   }
+   .sidebar-content img {
+     width: 100%;
+     height: auto;
+   }
+   /* Swiper */
+ 
+   .banner_homepage .swiper-container {
+     height: 350px !important;
+     margin-top: 64px !important;
+   }
+   .banner_homepage .swiper-slide img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   .sidebar {
+     overflow: scroll;
+     margin-top: 40px;
+     height: 410px;
+   }
+   .sidebar .tab-content{
+     text-align: center;
+   }
+   .sidebar .tab-content ul li a{
+     color: $mainColor;
+     padding-left:9px !important;
+   }
+ }
+ 
+ @media (max-width: 576px) {
+   .sidebar-content-capton-imgPosition {
+     bottom: 20px !important;
+     right: 0px;
+     width: 180px;
+     overflow-x: hidden;
+     text-align: end;
+ 
+   }
+ 
+   .sidebar-content-capton-imgPosition img {
+     width: 80% !important;
+     text-align: end;
+   }
+ 
+   .bottom-Img  .sidebar-content-capton-imgPosition{
+     bottom: -250px !important;
+     padding-bottom: 20px;
+     right: 0px;
+     width: 180px !important;
+   }
+ 
+   .sidebar-content-Hidden{
+     background-color: red;
+     display: none;
+   }
+ 
+   .sidebar-content .arrow-right{
+     display: none !important;   
+   }
+   .sidebar-content .arrow-bottom{
+     display: inline !important;   
+   }
+ 
+ }

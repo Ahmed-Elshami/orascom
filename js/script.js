@@ -12,11 +12,14 @@ function showSidebar(contentId) {
   contentToShow.classList.add('active');
 
   // Show the sidebar with animation
-  sidebar.style.top = "17%";
+  sidebar.style.top ="115px";
 
-  if (window.matchMedia("(min-width: 769px) and (max-width: 1024px)").matches) {
-    sidebar.style.top = "20%";
-}
+  // if (window.matchMedia("(min-width: 769px) and (max-width: 1024px)").matches) {
+  //   sidebar.style.top = "20%";
+  // }
+  // else if (window.matchMedia("(min-width: 1441px) and (max-width: 2650px)").matches){
+  //   sidebar.style.top = "12%";
+  // }
   
 
   // Remove active class from all links

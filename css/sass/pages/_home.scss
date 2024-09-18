@@ -10,171 +10,17 @@ body {
   overflow-x: hidden !important;
 }
 
-.navbar {
-  background-color: $mainColor;
-}
+// .banner_homepage .swiper-container {
+//   margin-top: 80px !important;
+// }
 
-.navbar-brand img {
-  max-width: 100%;
-  // height: auto;
-}
-
-.navbar-nav .AR a {
-  font-family: "Helvetica Neue";
-  font-size: 14px !important;
-  font-weight: 500 !important;
-  text-transform: uppercase;
-  color: #fff;
-  margin-right: 25px;
-  padding: 12px 25px;
-}
-
-.Contact-Us .btn {
-  color: $mainColor !important;
-  font-family: "Helvetica Neue";
-  font-size: 14px !important;
-  font-weight: 500 !important;
-  padding: 12px 25px;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+.banner_homepage .swiper-container .swiper-slide img {
   width: 100%;
-  z-index: 1000;
-  background-color: #fff;
-  // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 100vh;
 }
-.navbar2{
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-.navbar2 .navbar-nav {
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.navbar2 .nav-item .Links {
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color:#1A3E6F;
-  position: relative;
-  transition: all 0.3s ease;
-  padding-bottom: 0;
-  padding-top: 10px;
-}
-
-/* Border under the active link */
-.navbar2 .nav-item .Links.active::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background-color: $mainColor !important;
-  transition: width 0.3s ease;
-}
-
-/* media queries للشاشات المتوسطة */
-@media (max-width: 992px) {
-  .navbar-brand img {
-    max-width: 120px;
-  }
-
-  .navbar .navbar-toggler {
-    background-color: #fff !important;
-  }
-  .navbar .navbar-collapse{
-    text-align: center;
-  }
-  .navbar-nav .AR a {
-    margin-right: 15px;
-    font-size: 12px !important;
-  }
-
-  .Contact-Us .btn {
-    font-size: 12px !important;
-    padding: 10px 20px;
-  }
-
-  .navbar2 .navbar-nav {
-    width: 60%;
-  }
-
-  .navbar2 .nav-item .Links {
-    font-size: 12px;
-  }
-}
-
-/* media queries للشاشات الصغيرة */
-@media (max-width: 768px) {
-  .navbar-brand img {
-    max-width: 100px;
-    height: auto !important;
-  }
-
-  .navbar-nav .AR a {
-    margin-right: 10px;
-    font-size: 10px !important;
-  }
-
-  .Contact-Us .btn {
-    font-size: 10px !important;
-    padding: 8px 15px;
-  }
-
-  .navbar2 .navbar-nav {
-    width: 80%;
-    justify-content: space-around;
-  }
-
-  .navbar2 .nav-item .Links {
-    font-size: 10px;
-  }
-}
-
-/* media queries للشاشات الصغيرة جدًا */
-@media (max-width: 576px) {
-  .navbar-brand img {
-    max-width: 80px;
-  }
-
-  .navbar-nav .AR a {
-    margin-right: 5px;
-    font-size: 9px !important;
-  }
-
-  .Contact-Us .btn {
-    font-size: 9px !important;
-    padding: 6px 12px;
-  }
-
-  .navbar2 .navbar-nav {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar2 .nav-item .Links {
-    font-size: 9px;
-    margin-bottom: 5px;
-  }
-
-}
-
-.banner_homepage .swiper-container {
-  margin-top: 80px !important;
-}
-
 .banner_homepage .swiper-pagination-bullet {
   background-color: #fff;
 }
-
 .banner_homepage .swiper-button-next,
 .swiper-button-prev {
   // background-color: rgba(0, 0, 0, 0.5); 
@@ -185,231 +31,29 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .banner_homepage .swiper-button-next:after,
 .swiper-button-prev:after {
   font-size: 20px;
   color: white;
 }
-
 .banner_homepage .swiper-button-next {
   right: 10px;
   bottom: 20px;
   display: none;
 }
-
 .banner_homepage .swiper-button-prev {
   left: 25px;
   bottom: 20px;
   display: none;
 }
-
 .banner_homepage:hover .swiper-button-next {
   display: block;
 }
-
 .banner_homepage:hover .swiper-button-prev {
   
   display: block;
 }
-
-//////////////////////////////////////////////////////////////////
-/* Sidebar Styles */
-.sidebar {
-  position: fixed;
-  height: 75%;
-  top: -100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 68%;
-  max-height: 78% !important;
-  background-color: white;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  transition: top 0.9s ease;
-  padding: 20px;
-  z-index: 1000;
-}
-
-.sidebar-content {
-  display: none;
-  margin-top: 20px;
-}
-
-/* Active content */
-.active {
-  display: block;
-}
-
-/* Close button hidden */
-.sidebar .closebtn {
-  display: none;
-}
-
-.sidebar-content-Links ul li {
-  list-style: none;
-  margin-bottom: 15px;
-  margin-left: 30px;
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 500;
-  font-family: "Helvetica Neue";
-  text-transform: uppercase;
-  color: #79797C;
-}
-
-.sidebar-content-Links {
-  position: relative;
-}
-
-.sidebar-content-Links::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -25px;
-  height: 205%;
-  width: 1px;
-  background-color: #d2d2d6;
-}
-@media (max-width: 1025px) {
-  .sidebar-content-Links::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -25px;
-    height: 150%;
-    width: 1px;
-    background-color: #d2d2d6 !important;
-  }
-}
-
-.sidebar-content-Links ul {
-  list-style: none;
-  padding: 0;
-}
-
-.sidebar-content-Links ul li {
-  padding: 5px 0;
-}
-
-.sidebar-content-capton {
-  margin-left: 50px;
-}
-
-.sidebar-content-capton p {
-  margin-top: 40px;
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: -0.28px;
-  color: #A3A3A3;
-}
-
-.sidebar-content-capton-imgPosition {
-  position: absolute;
-  bottom: 20px;
-  right: 5px;
-}
-
-.sidebar-content-capton-imgPosition img {
-  width: 300px;
-}
-
-.bottom-Img  .sidebar-content-capton-imgPosition{
-  width: 300px;
-
-}
-
-/* Media Query للأجهزة اللوحية */
-@media (max-width: 992px) {
-  .sidebar-content-Links ul li {
-    margin-left: 10px;
-  }
-
-  .sidebar-content-capton {
-    margin-left: 20px;
-  }
-
-  .sidebar-content-capton-imgPosition {
-    bottom: 25px !important;
-    right: 5px;
-  }
-  .sidebar-content-capton-imgPosition img {
-    width: 300px !important;
-  }
-  .bottom-Img  .sidebar-content-capton-imgPosition{
-    bottom: -170px !important;
-    right: 5px;
-    width: 300px !important;
-  }
-
-  .sidebar-content-Hidden{
-    background-color: red;
-    display: none;
-  }
-
-  .sidebar-content .arrow-right{
-    display: none !important;   
-  }
-  .sidebar-content .arrow-bottom{
-    display: inline !important;   
-  }
-
-}
-
-/* Media Query لشاشات الموبايل */
 @media (max-width: 768px) {
-  .sidebar-content-Links {
-    text-align: center;
-    position: relative;
-  }
-
-  .sidebar-content-Links ul li {
-    margin-left: 0;
-    margin-bottom: 2px;
-    font-size: 12px;
-  }
-
-  // .sidebar-content-Links::after {
-  //   content: '';
-  //   position: absolute;
-  //   bottom: -10px;
-  //   /* المسافة بين البوردر والروابط */
-  //   left: 0;
-  //   width: 100%;
-  //   height: 1px;
-  //   background-color: #d2d2d6;
-  // }
-
-
-  // .sidebar {
-  //   height: 75%;
-
-  // }
-
-  /* إخفاء البوردر الأصلي على الجانب */
-  .sidebar-content-Links::before {
-    display: none;
-  }
-  .sidebar-content-capton {
-    margin-left: 0;
-    text-align: center;
-  }
-  .sidebar-content-capton p {
-    margin-top: 10px;
-  }
-  // .sidebar-content-capton-imgPosition {
-  //   bottom: 0 !important;
-  //   right: 0 !important;
-  //   background-color: red;
-  // }
-  .sidebar-content img {
-    width: 100%;
-    height: auto;
-  }
-  /* Swiper */
-
   .banner_homepage .swiper-container {
     height: 350px !important;
     margin-top: 64px !important;
@@ -419,192 +63,7 @@ header {
     height: 100%;
     object-fit: cover;
   }
-  .sidebar {
-    overflow: scroll;
-    margin-top: 40px;
-    height: 410px;
-  }
-  .sidebar .tab-content{
-    text-align: center;
-  }
-  .sidebar .tab-content ul li a{
-    color: #1d2542;
-    padding-left:9px !important;
-  }
 }
-
-@media (max-width: 576px) {
-  .sidebar-content-capton-imgPosition {
-    bottom: 20px !important;
-    right: 0px;
-    width: 180px;
-    overflow-x: hidden;
-  }
-
-  .sidebar-content-capton-imgPosition img {
-    width: 100%;
-  }
-
-  .bottom-Img  .sidebar-content-capton-imgPosition{
-    bottom: -250px !important;
-    padding-bottom: 20px;
-    right: 0px;
-    width: 180px !important;
-  }
-
-  .sidebar-content-Hidden{
-    background-color: red;
-    display: none;
-  }
-
-  .sidebar-content .arrow-right{
-    display: none !important;   
-  }
-  .sidebar-content .arrow-bottom{
-    display: inline !important;   
-  }
-
-}
-
-
-///////////////////////////
-
-.nav-pills .nav-link {
-  background-color: transparent;
-  color: #79797C;
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: -0.28px;
-  text-transform: uppercase;
-  padding: 18px;
-  text-align: center;
-
-}
-
-
-
-.nav-pills .nav-link.active {
-  background-color: transparent;
-  color: #1A3E6F !important;
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: -0.28px;
-  text-transform: uppercase;
-}
-
-.nav-pills .nav-link img {
-  filter: none;
-  transition: filter 0.3s ease;
-}
-
-.nav-pills .nav-link.active img {
-  filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(2000%) hue-rotate(180deg) brightness(100%) contrast(100%);
-}
-
-.nav-pills {
-  position: relative;
-}
-
-.nav-pills::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -50px;
-  height: 180%;
-  width: 1px;
-  background-color: #d2d2d6;
-}
-
-@media (max-width: 1025px) {
-  .nav-pills::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -10px;
-    height: 150%;
-    width: 1px;
-   
-}}
-
-.tab-pane ul li a {
-  color: #79797C;
-  font-family: "Helvetica Neue";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: -0.28px;
-  text-transform: uppercase;
-}
-
-/* Media Queries for Tablets */
-@media (max-width: 768px) {
-  .nav-pills {
-    position: static;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #79797C;
-    width: 100%;
-  }
-
-  .nav-pills::before {
-    display: none;
-  }
-
-  .nav-pills .nav-link {
-    padding: 12px;
-    font-size: 12px;
-  }
-
-  .nav-pills .nav-link img {
-    width: 16px;
-  }
-
-  .sidebar-content-capton-imgPosition img {
-    width: 120%;
-    height: auto;
-  }
-}
-
-/* Media Queries for Mobile Devices */
-@media (max-width: 576px) {
-  .nav-pills .nav-link {
-    font-size: 10px;
-    padding: 10px;
-  }
-
-  .nav-pills .nav-link img {
-    width: 14px;
-  }
-
-  .tab-pane ul li a {
-    font-size: 12px;
-  }
-  // .sidebar-content-capton-imgPosition img {
-  //   width: 120%;
-  // }
-}
-
-@media (min-width: 769px) and (max-width: 1025px) {
-  // .sidebar-content-capton-imgPosition img {
-  //   width: 100%;
-  //   bottom: -100px;
-  // }
-
-  .sidebar-content-capton p {
-    margin-top: 20px;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #A3A3A3;
-  }
-}
-
 
 ////////////{Who-We-Are}/////////////////////////////////////
 
@@ -689,54 +148,6 @@ header {
 
 }
 
-// @media (max-width: 768px) {
-//   .Who-We-Are-item {
-//     text-align: center;
-//   }
-
-//   .Who-We-Are .caption {
-//     padding-left: 15px;
-//     padding-right: 15px;
-//     text-align: center !important;
-//     margin: auto !important;
-//     width: 50% !important;
-//     background-color: #102B4F;
-//   }
-
-//   .Who-We-Are .caption h2 {
-//     font-size: 28px;
-//     padding-right: 0 !important;
-//     background-color: red;
-//     text-align: start;
-//     margin-left: 12px;
-
-//   }
-
-
-
-//   .Who-We-Are .caption p {
-//     font-size: 12px;
-//     line-height: 18px;
-//     margin-top: 25px;
-//     padding-right: 0px !important;
-//   }
-
-//   .Who-We-Are .caption .btnMain {
-
-//     margin-top: 10px;
-//   }
-
-//   .Who-We-Are .Image {
-//     text-align: center;
-//     margin: auto;
-//   }
-
-//   .Who-We-Are .Image img {
-//     object-fit: cover;
-//     // height: 350px !important;
-//   }
-// }
-
 @media (max-width: 768px) {
   .Who-We-Are .caption {
     padding-left: 45px !important;
@@ -757,7 +168,6 @@ header {
     line-height: 18px;
     margin-top: 20px !important;
     text-align: start !important;
-    padding-right: 0 !important;
   }
 
   .Who-We-Are .Image {
@@ -773,7 +183,6 @@ header {
   }
 }
 
-/* Media Query for Mobile (576px and below) */
 @media (max-width: 576px) {
   .Who-We-Are .caption {
     padding: 15px !important;
@@ -875,7 +284,6 @@ header {
     font-family: "Helvetica Neue";
     font-size: 10px !important;
     font-weight: 100 !important;
-
   }
 }
 
@@ -944,7 +352,6 @@ header {
 
 }
 
-
 .Ourservices .item-captipn2 {
   background-color: $mainColor;
   // width: 297px;
@@ -955,7 +362,6 @@ header {
   justify-content: center;
   transition: all 1s;
   margin-top: 16px;
-
 }
 
 .Ourservices .item-captipn2 h3 {
@@ -963,9 +369,6 @@ header {
    text-align: center;
    padding: 0 !important;
    margin: 0 !important;
-
-
-
 }
 
 .Ourservices .item-captipn2:hover {
@@ -987,21 +390,17 @@ header {
   height: auto;
 }
 
-/* تخصيص لأجهزة الموبايل */
 @media (max-width: 767px) {
   .col-Item {
-    flex: 1 1 50%; /* عرض 50% على الشاشات الصغيرة */
+    flex: 1 1 50%; 
   }
 }
 
 @media (max-width: 992px) {
   .col-Item {
-    flex: 1 1 50%; /* عرض 50% على الشاشات الصغيرة */
+    flex: 1 1 50%; 
   }
 }
-
-
-
 
 /////////////////////////////{LatestNEWS}///////////////////////////
 .LatestNEWS .caption {
@@ -1037,13 +436,11 @@ header {
   overflow: hidden;
   color: #828282;
   text-overflow: ellipsis;
-  /* Body Text */
   font-family: "Helvetica Neue";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
-  /* 142.857% */
   letter-spacing: -0.28px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -1067,7 +464,6 @@ header {
 font-weight: 300;
 }
 
-
 @media (min-width: 768px) and (max-width: 1020px) {
   .LatestNEWS-hiden-section{
    display: none;
@@ -1080,7 +476,6 @@ font-weight: 300;
   background-color: #79797C;
   margin: 20px auto;
   opacity: 0.2;
-
 }
 
 .Brands .caption {
